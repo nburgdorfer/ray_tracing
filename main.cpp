@@ -35,7 +35,7 @@ color ray_color(const ray& r) {
 
 int main(int argc, char **argv) {
     const auto aspect_ratio = 16.0/9.0;
-    const int img_width = 3820;
+    const int img_width = 512;
     const int img_height = static_cast<int>(img_width / aspect_ratio);
 
     cout << "P3\n" << img_width << ' ' << img_height << "\n255\n";
