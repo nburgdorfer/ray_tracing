@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/write_ppm.dir/write_ppm.cpp.o  -o write_ppm 

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nathaniel/dev/personal/ray_tracing/color.h
+vec3.h
+/home/nathaniel/dev/personal/ray_tracing/vec3.h
+iostream
+-
+
+/home/nathaniel/dev/personal/ray_tracing/vec3.h
+cmath
+-
+iostream
+-
+
+/home/nathaniel/dev/personal/ray_tracing/write_ppm.cpp
+color.h
+/home/nathaniel/dev/personal/ray_tracing/color.h
+vec3.h
+/home/nathaniel/dev/personal/ray_tracing/vec3.h
+iostream
+-
+
